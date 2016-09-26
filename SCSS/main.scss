@@ -133,7 +133,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
-#button {
+.button {
     display:block;
     text-align: center;
     text-decoration: none;
@@ -149,7 +149,7 @@ body {
         color:grey;
     }
 }
-#button:hover {
+.button:hover {
     opacity: 0.5;
     background-color:aliceblue;
 }
@@ -169,7 +169,7 @@ h3{
     display: block;
     height: 95px;
 }
-#divider {
+.divider {
     background-color:lightgrey;
     height: 2px;
     width: 8in;
