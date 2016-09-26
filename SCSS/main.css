@@ -102,7 +102,7 @@ body {
   margin: 0px;
   padding: 0px; }
 
-#button {
+.button {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -113,11 +113,11 @@ body {
   height: 2in;
   -webkt-transition-duration: 0.4s;
   transition-duration: 0.4s; }
-  #button div {
+  .button div {
     padding: 1in;
     color: grey; }
 
-#button:hover {
+.button:hover {
   opacity: 0.5;
   background-color: aliceblue; }
 
@@ -135,7 +135,7 @@ h3 {
   display: block;
   height: 95px; }
 
-#divider {
+.divider {
   background-color: lightgrey;
   height: 2px;
   width: 8in;
