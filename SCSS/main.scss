@@ -200,3 +200,13 @@ p {
     font-family: $sans;
     margin-left: 30px;
 }
+
+@media print {
+
+    .footer  {
+        display:none;
+    }
+    .header{
+        background-color:white;
+    }
+}

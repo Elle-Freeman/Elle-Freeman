@@ -158,3 +158,10 @@ ul {
 p {
   font-family: Helvetica;
   margin-left: 30px; }
+
+@media print {
+  .footer {
+    display: none; }
+
+  .header {
+    background-color: white; } }
