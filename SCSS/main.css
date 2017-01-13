@@ -1,7 +1,7 @@
 body {
   max-width: 8.5in;
   margin: auto;
-  background-color: lightgrey; }
+  background-color: azure; }
 
 .header {
   z-index: 2;
@@ -53,7 +53,7 @@ body {
   .footer p {
     margin-top: 10px;
     display: block;
-    color: lightgrey;
+    color: azure;
     text-align: center; }
 
 .footer:hover {
@@ -62,7 +62,7 @@ body {
 .backboard {
   position: fixed;
   z-index: 1;
-  background-color: lightgrey;
+  background-color: azure;
   max-width: 8.5in;
   width: 100%;
   min-width: 5in; }
@@ -79,9 +79,9 @@ body {
   min-width: 155px;
   margin-bottom: 50px;
   float: left;
-  width: 69%; }
+  width: 66%; }
   #right p {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 2px;
     margin-bottom: 4px;
     margin-left: 20px; }
@@ -94,12 +94,18 @@ body {
     font-style: normal;
     font-style: bold; }
 
+#side-divider {
+  height: 60%;
+  width: 4px;
+  display: block;
+  background-color: black; }
+
 #left {
   float: left;
   width: 30%;
   max-width: 3in;
   min-width: 155px;
-  margin-right: 1%; }
+  margin-right: 4%; }
 
 .options {
   width: 100%;
@@ -114,7 +120,7 @@ body {
   font-family: Helvetica;
   font-size: 25px;
   border-radius: 15px;
-  background-color: lightgrey;
+  background-color: azure;
   height: 2in;
   -webkt-transition-duration: 0.4s;
   transition-duration: 0.4s; }
@@ -124,21 +130,25 @@ body {
 
 .button:hover {
   opacity: 0.2;
-  background-color: lightgrey; }
+  background-color: azure; }
 
 h5 {
+  font-size: 15px;
   font-family: Helvetica;
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px; }
 
 h3 {
   font-family: Garamond;
+  font-size: 20px;
   margin-left: 20px;
   margin-top: 0px;
   margin-bottom: 10px; }
 
 #wrapper {
   display: block;
-  height: 95px; }
+  height: 115px; }
 
 .divider {
   background-color: slategrey;
@@ -161,6 +171,18 @@ ul {
 p {
   font-family: Helvetica;
   margin-left: 30px; }
+
+#resume p {
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  margin-left: 20px; }
+#resume li p {
+  font-style: normal; }
+#resume span {
+  font-size: 16px;
+  font-style: normal;
+  font-style: bold; }
 
 @media print {
   .footer {
